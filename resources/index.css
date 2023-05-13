@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+    border-spacing: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    margin: 3rem auto;
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+}
+
+h2 {
+    margin: 1rem;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;;
+}
+
+table {
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 710px;
+    margin: 3rem auto;
+    border-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+
+th {
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin: 1rem;
+    letter-spacing: 1px;
+}
+
+td {
+    border-bottom: 1px solid;
+    padding: 0.5rem;
+    background-color: rgb(216, 214, 146);
+}
+
+.text, .list, .font {
+    border-bottom: 1px solid gray;
+    max-width: 710px;
+    margin: 0 auto;
+}
+
+.IBM {
+    font-family: 'IBM Plex Mono', monospace;;
+}
+
+footer p {
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer a {
+    color: rgb(164, 159, 20);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:active {
+    color: black;
+}
